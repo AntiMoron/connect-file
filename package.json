@@ -1,6 +1,6 @@
 {
   "name": "connect-file",
-  "version": "0.0.0",
+  "version": "0.0.3",
   "description": "connect stream and another file given its path.",
   "license": "MIT",
   "repository": "AntiMoron/connect-file",
