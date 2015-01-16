@@ -1,0 +1,34 @@
+{
+  "name": "connect-file",
+  "version": "0.0.0",
+  "description": "connect stream and another file given its path.",
+  "license": "MIT",
+  "repository": "AntiMoron/connect-file",
+  "author": {
+    "name": "AntiMoron",
+    "email": "anti2moron@gmail.com",
+    "url": "https://github.com/AntiMoron"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "should"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "gulpplugin",
+    "connect-file",
+    "connect"
+  ],
+  "dependencies": {
+    "gulp-util": "~2.2.14",
+    "through2": "~0.6.3"
+  },
+  "devDependencies": {
+    "gulp-util": "^2.2.20",
+    "mocha": "*"
+  }
+}
