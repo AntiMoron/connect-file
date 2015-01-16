@@ -1,7 +1,5 @@
 # connect-file
 
-## this plugin is still testing!!!
-
 This plugin is supposed to make a stream connect with file contents or strings.
 
 use 
@@ -25,4 +23,27 @@ gulp.task('connect',function(){
     .pipe(gulp.dest('result/'));
 });
 
+```
+
+### Test Input Files 
+the test files used above are as follows.
+```txt
+//---------test.txt-----------//
+123
+```
+
+```txt
+//---------test2.txt----------//
+FileTest
+a
+a
+a
+```
+### Test Output File
+```txt
+//---------result/newFile.txt----------//
+123FileTest
+a
+a
+aabcdefghijklmnopqrstuvwxyz.TestString
 ```
