@@ -1,6 +1,6 @@
 {
   "name": "connect-file",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "description": "connect stream and another file given its path.",
   "license": "MIT",
   "repository": "AntiMoron/connect-file",
@@ -28,7 +28,12 @@
     "through2": "~0.6.3"
   },
   "devDependencies": {
+    "concat-stream": "^1.4.7",
+    "event-stream": "^3.2.1",
     "gulp-util": "^2.2.20",
-    "mocha": "*"
+    "mocha": "*",
+    "replacestream": "^1.0.2",
+    "stream": "0.0.2",
+    "util": "^0.10.3"
   }
 }
